@@ -23,6 +23,20 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"pocketbase": "^0.16.0"
+		"@milkdown/core": "^7.2.4",
+		"@milkdown/ctx": "^7.2.4",
+		"@milkdown/plugin-clipboard": "^7.3.0",
+		"@milkdown/plugin-history": "^7.3.0",
+		"@milkdown/plugin-indent": "^7.3.0",
+		"@milkdown/plugin-math": "^7.3.0",
+		"@milkdown/plugin-prism": "^7.3.0",
+		"@milkdown/plugin-tooltip": "^7.3.0",
+		"@milkdown/preset-commonmark": "^7.2.4",
+		"@milkdown/prose": "^7.2.4",
+		"@milkdown/theme-nord": "^7.2.4",
+		"@milkdown/transformer": "^7.2.4",
+		"normalize.css": "^8.0.1",
+		"pocketbase": "^0.16.0",
+		"prism-themes": "^1.9.0"
 	}
 }

@@ -1,11 +1,7 @@
 <script>
 	export let data;
-	console.log(data.courses[0]);
 </script>
 
-<svelte:head>
-	<title>Scholar</title>
-</svelte:head>
 
 <section>
 	<h1>Scholar</h1>
@@ -13,9 +9,11 @@
 		<h2>Courses</h2>
 		<div class="courses">
 			{#each data.courses as course}
-				<div class="course">
-					{course.title}
-				</div>
+				<a href={`/course/${course.id}`}>
+					<div class="course">
+						{course.title}
+					</div>
+				</a>
 			{/each}
 		</div>
 	</div>
